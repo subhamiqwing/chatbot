@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::post('send', [ChatBotController::class, 'sendChat']);
+Route::post('send', [ChatBotController::class, '
