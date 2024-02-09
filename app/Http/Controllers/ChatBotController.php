@@ -32,7 +32,7 @@ class ChatBotController extends Controller
             return $response;
         } catch (\Exception $e) {
             // Handle exceptions (e.g., log the error, return a custom error response)
-            dd("Error occurred: " . $e->getMessage());
+            // dd("Error occurred: " . $e->getMessage());
         }
     }
 }
